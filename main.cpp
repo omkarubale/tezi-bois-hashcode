@@ -86,7 +86,7 @@ int main()
     string givenInput;
     ifstream nameFile;
     vector<string> rawImages;
-    nameFile.open("\\Input Data Sets\\a_example.txt");
+    nameFile.open("\\Input-Data-Sets\\a_example.txt");
 
     while (std::getline(nameFile, givenInput))
     {
